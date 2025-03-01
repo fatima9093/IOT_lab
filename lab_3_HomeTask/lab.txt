@@ -1,0 +1,13 @@
+ what happened before and after interrupt? 
+Before Interrupt:
+The microcontroller continuously checks (polls) the DHT11 sensor for new temperature and humidity readings.and updates the value in loop
+After Interrupt:
+The microcontroller responds to sensor updates only when an interrupt occurs, improving efficiency.only update when new dates are available'
+
+Debounce Issue & Why to Get Rid of It
+Debounce issue: When a button or switch is pressed, it may register multiple unintended signals due to mechanical vibrations.
+Why fix it? To ensure accurate and stable input detection, preventing false triggers.
+
+Debounce Issue & Why to Get Rid of It
+Debounce issue: When a button or switch is pressed, it may register multiple unintended signals due to mechanical vibrations.
+Why fix it? To ensure accurate and stable input detection, preventing false triggers.

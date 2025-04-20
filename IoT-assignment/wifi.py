@@ -1,8 +1,8 @@
 import network
 import time
 
-WIFI_SSID = "Ahmad Home"
-WIFI_PASS = "Hm@123579"
+WIFI_SSID = "Fama"
+WIFI_PASS = "famamanu12"
 
 def connect_wifi():
     wlan = network.WLAN(network.STA_IF)

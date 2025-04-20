@@ -5,8 +5,8 @@ import machine
 import ssd1306  # OLED library
 
 # WiFi Configuration
-SSID = "Ahmad Home"
-PASSWORD = "Hm@123579"
+SSID = "Fama"
+PASSWORD = "famamanu12"
 
 # Initialize WiFi in Station Mode
 wifi = network.WLAN(network.STA_IF)

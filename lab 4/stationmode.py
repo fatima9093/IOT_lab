@@ -3,8 +3,8 @@ print("Hello, ESP32-S3!")
 import network
 import time
 
-ssid = "Fatima~"
-password = "famamanu12"
+ssid = "Shaham"
+password = "hadia123"
 
 print("Connecting to WiFi", end="")
 sta = network.WLAN(network.STA_IF)
@@ -21,5 +21,6 @@ for _ in range(10):
 if sta.isconnected():
     print("Connected to WiFi!")
     print("IP Address:", sta.ifconfig()[0])
+    print("IP Address:", sta.ifconfig()[2])
 else:
     print("Failed to connect")
